@@ -2,12 +2,14 @@ using System;
 using UnityEngine;
 using TMPro;
 using UnityEngine.PlayerLoop;
+using UnityEngine.Windows;
 
 public class PHOTOCLICK : MonoBehaviour
 {
-    public int resourcesAvailable;
-    public float autoClicks, autoClickPool;
+    public float resourcesAvailable;
+    public float autoClicks, autoClickPool, photoClicks, photoClickPool;
     public TMP_Text resourceCounter, clickCounter;
+    public bool rook, bluetit, swan, goldfinch, robin, collareddove;
 
     private void Start()
     {
@@ -15,19 +17,29 @@ public class PHOTOCLICK : MonoBehaviour
     }
 
     // Add resources to the available pool
-    public void AddResources(int amountToAdd)
+    public void AddResources(float amountToAdd)
     {
-        resourcesAvailable += amountToAdd;
-        UpdateUI();
+        if (!rook && !bluetit && !swan && !goldfinch && !robin && !collareddove)
+        {
+            resourcesAvailable += amountToAdd;
+            UpdateUI();
+        }
+
+        if (rook) 
+        {
+            resourcesAvailable += (float)(amountToAdd + 0.5);
+            
+            UpdateUI();
+        }
     }
 
-    public void RemoveResources(int amountToRemove)
+    public void RemoveResources(float amountToRemove)
     {
         resourcesAvailable -= amountToRemove;
         UpdateUI();
     }
 
-    public bool CheckResources(int checkAmount)
+    public bool CheckResources(float checkAmount)
     {
         if (checkAmount <= resourcesAvailable)
         {
@@ -45,14 +57,27 @@ public class PHOTOCLICK : MonoBehaviour
         if (autoClickPool >= 1f)
         {
             autoClickPool -= 1f;
-            AddResources(1);
+            autoClickerAutoResource(1);
             UpdateUI();
         }
     }
 
     private void UpdateUI()
     {
-        resourceCounter.text = "Photos: " + resourcesAvailable.ToString();
+        var textDisplay = resourcesAvailable.ToString();
+        int index = textDisplay.IndexOf(".");
+        if (index >= 0) 
+        {
+            textDisplay = textDisplay.Substring(0, index);
+        }
+        resourceCounter.text = "Photos: " + textDisplay;
         clickCounter.text = "Photos per second: " + (Mathf.Round(autoClicks * 10) / 10).ToString();
+
+    }
+
+    public void autoClickerAutoResource(float amountToAdd)
+    {
+        resourcesAvailable += amountToAdd;
+        UpdateUI();
     }
 }

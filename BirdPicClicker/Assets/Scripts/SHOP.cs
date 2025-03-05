@@ -5,7 +5,7 @@ using TMPro;
 public class SHOP : MonoBehaviour
 {
     public string itemName = "@@@";
-    public int numberOwned, baseCost, purchaseCost;
+    public float numberOwned, baseCost, purchaseCost;
     public float multiplier = 1.15f;
     public TMP_Text costText, nameText, numberText;
     public PHOTOCLICK myResources;
