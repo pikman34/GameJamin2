@@ -72,7 +72,6 @@ public class PHOTOCLICK : MonoBehaviour
         }
         resourceCounter.text = "Photos: " + textDisplay;
         clickCounter.text = "Photos per second: " + (Mathf.Round(autoClicks * 10) / 10).ToString();
-
     }
 
     public void autoClickerAutoResource(float amountToAdd)
