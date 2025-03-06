@@ -6,8 +6,8 @@ using UnityEngine.PlayerLoop;
 public class ResourceTracker : MonoBehaviour
 {
     public float resourcesAvailable;
-    public float autoClicks, autoClickPool;
-    public TMP_Text resourceCounter, clickCounter;
+    public float autoClicks, autoClickPool, photoClicks;
+    public TMP_Text resourceCounter, clickCounter, clickerCounter;
     public bool rook, bluetit, swan, goldfinch, robin, collareddove;
 
     private void Start()
@@ -20,42 +20,43 @@ public class ResourceTracker : MonoBehaviour
     {
         if (rook)
         {
+            photoClicks = (float)1;
             resourcesAvailable += amountToAdd;
             UpdateUI();
         }
 
         if (bluetit) 
         {
+            photoClicks = (float)1.5;
             resourcesAvailable += (float)(amountToAdd + 0.5);
-
             UpdateUI();
         }
         
         if (robin)
         {
+            photoClicks = (float)1.75;
             resourcesAvailable += (float)(amountToAdd + 0.75);
-
             UpdateUI();
         }
 
         if (goldfinch)
         {
+            photoClicks = (float)(2);
             resourcesAvailable += (float)(amountToAdd + 1);
-
             UpdateUI();
         }
 
         if (swan)
         {
+            photoClicks = (float)(2.5);
             resourcesAvailable += (float)(amountToAdd + 1.5);
-
             UpdateUI();
         }
         
         if (collareddove)
         {
+            photoClicks = (float)(3);
             resourcesAvailable += (float)(amountToAdd + 2);
-
             UpdateUI();
         }
     }
@@ -99,6 +100,7 @@ public class ResourceTracker : MonoBehaviour
         }
         resourceCounter.text = "Photos: " + textDisplay;
         clickCounter.text = "Photos per second: " + (Mathf.Round(autoClicks * 10) / 10).ToString();
+        clickerCounter.text = photoClicks.ToString() + " c/s";
     }
 
     public void autoClickerAutoResource(float amountToAdd)
