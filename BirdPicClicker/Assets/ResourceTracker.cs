@@ -5,9 +5,10 @@ using UnityEngine.PlayerLoop;
 
 public class ResourceTracker : MonoBehaviour
 {
-    public int resourcesAvailable;
+    public float resourcesAvailable;
     public float autoClicks, autoClickPool;
     public TMP_Text resourceCounter, clickCounter;
+    public bool rook, bluetit, swan, goldfinch, robin, collareddove;
 
     private void Start()
     {
@@ -15,19 +16,57 @@ public class ResourceTracker : MonoBehaviour
     }
 
     // Add resources to the available pool
-    public void AddResources(int amountToAdd)
+    public void AddResources(float amountToAdd)
     {
-        resourcesAvailable += amountToAdd;
-        UpdateUI();
+        if (rook)
+        {
+            resourcesAvailable += amountToAdd;
+            UpdateUI();
+        }
+
+        if (bluetit) 
+        {
+            resourcesAvailable += (float)(amountToAdd + 0.5);
+
+            UpdateUI();
+        }
+        
+        if (robin)
+        {
+            resourcesAvailable += (float)(amountToAdd + 0.75);
+
+            UpdateUI();
+        }
+
+        if (goldfinch)
+        {
+            resourcesAvailable += (float)(amountToAdd + 1);
+
+            UpdateUI();
+        }
+
+        if (swan)
+        {
+            resourcesAvailable += (float)(amountToAdd + 1.5);
+
+            UpdateUI();
+        }
+        
+        if (collareddove)
+        {
+            resourcesAvailable += (float)(amountToAdd + 2);
+
+            UpdateUI();
+        }
     }
 
-    public void RemoveResources(int amountToRemove)
+    public void RemoveResources(float amountToRemove)
     {
         resourcesAvailable -= amountToRemove;
         UpdateUI();
     }
 
-    public bool CheckResources(int checkAmount)
+    public bool CheckResources(float checkAmount)
     {
         if (checkAmount <= resourcesAvailable)
         {
@@ -45,14 +84,28 @@ public class ResourceTracker : MonoBehaviour
         if (autoClickPool >= 1f)
         {
             autoClickPool -= 1f;
-            AddResources(1);
+            autoClickerAutoResource(1);
             UpdateUI();
         }
     }
 
     private void UpdateUI()
     {
-        resourceCounter.text =" Money made: " + resourcesAvailable.ToString();
-        clickCounter.text = " Money per Second: " + (Mathf.Round(autoClicks * 10) / 10).ToString();
+        var textDisplay = resourcesAvailable.ToString();
+        int index = textDisplay.IndexOf(".");
+        if (index >= 0)
+        {
+            textDisplay = textDisplay.Substring(0, index);
+        }
+        resourceCounter.text = "Photos: " + textDisplay;
+        clickCounter.text = "Photos per second: " + (Mathf.Round(autoClicks * 10) / 10).ToString();
     }
+
+    public void autoClickerAutoResource(float amountToAdd)
+    {
+        resourcesAvailable += amountToAdd;
+        UpdateUI();
+    }
+
+
 }
