@@ -25,7 +25,7 @@ public class ResourceTracker : MonoBehaviour
             UpdateUI();
         }
 
-        if (bluetit) 
+        if (collareddove) 
         {
             photoClicks = (float)1.5;
             resourcesAvailable += (float)(amountToAdd + 0.5);
@@ -53,7 +53,7 @@ public class ResourceTracker : MonoBehaviour
             UpdateUI();
         }
         
-        if (collareddove)
+        if (bluetit)
         {
             photoClicks = (float)(3);
             resourcesAvailable += (float)(amountToAdd + 2);
