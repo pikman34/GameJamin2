@@ -1702,7 +1702,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -480.00003, y: 118}
+  m_AnchoredPosition: {x: -479.99997, y: 118}
   m_SizeDelta: {x: 0, y: 118}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &339024145
@@ -3989,8 +3989,8 @@ MonoBehaviour:
         m_CallState: 2
   clicker: {fileID: 998646936}
   bird1: 0
-  bird2: 0
-  bird3: 1
+  bird2: 1
+  bird3: 0
   bird4: 0
   bird5: 0
   bird6: 0
@@ -5069,7 +5069,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1122036129}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.9188023
+  m_Size: 0.9186468
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5521,7 +5521,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4289906645
   m_fontColor: {r: 0.8352942, g: 0.7803922, b: 0.69803923, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -5658,7 +5658,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 1761607680
-  m_fontColor: {r: 0, g: 0, b: 0, a: 0.4117647}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 0.88235295}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -6141,6 +6141,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 200.10004
       objectReference: {fileID: 0}
+    - target: {fileID: 6832132815577386285, guid: 815beb56741323f4e96ceb39dc84dd76, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7213738770114200459, guid: 815beb56741323f4e96ceb39dc84dd76, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7908252243039809774, guid: 815beb56741323f4e96ceb39dc84dd76, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8418287629988028712, guid: 815beb56741323f4e96ceb39dc84dd76, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8602290398281853508, guid: 815beb56741323f4e96ceb39dc84dd76, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -6221,6 +6237,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8683532356460216299, guid: 815beb56741323f4e96ceb39dc84dd76, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8962018240723013755, guid: 815beb56741323f4e96ceb39dc84dd76, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -6230,6 +6250,61 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 815beb56741323f4e96ceb39dc84dd76, type: 3}
+--- !u!114 &812600281 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6832132815577386285, guid: 815beb56741323f4e96ceb39dc84dd76, type: 3}
+  m_PrefabInstance: {fileID: 812600280}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &812600282 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7213738770114200459, guid: 815beb56741323f4e96ceb39dc84dd76, type: 3}
+  m_PrefabInstance: {fileID: 812600280}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &812600283 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8683532356460216299, guid: 815beb56741323f4e96ceb39dc84dd76, type: 3}
+  m_PrefabInstance: {fileID: 812600280}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &812600284 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8418287629988028712, guid: 815beb56741323f4e96ceb39dc84dd76, type: 3}
+  m_PrefabInstance: {fileID: 812600280}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &812600285 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7908252243039809774, guid: 815beb56741323f4e96ceb39dc84dd76, type: 3}
+  m_PrefabInstance: {fileID: 812600280}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &827732012
 GameObject:
   m_ObjectHideFlags: 0
@@ -6776,8 +6851,8 @@ MonoBehaviour:
         m_CallState: 2
   clicker: {fileID: 998646936}
   bird1: 0
-  bird2: 1
-  bird3: 0
+  bird2: 0
+  bird3: 1
   bird4: 0
   bird5: 0
   bird6: 0
@@ -7139,7 +7214,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 812600283}
         m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
         m_MethodName: set_interactable
         m_Mode: 6
@@ -7429,7 +7504,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4289906645
   m_fontColor: {r: 0.8352942, g: 0.7803922, b: 0.69803923, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -7563,7 +7638,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4289906645
   m_fontColor: {r: 0.8352942, g: 0.7803922, b: 0.69803923, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -8406,7 +8481,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4289906645
   m_fontColor: {r: 0.8352942, g: 0.7803922, b: 0.69803923, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -8504,8 +8579,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1393568747}
   - {fileID: 2027769011}
+  - {fileID: 1393568747}
   - {fileID: 937972486}
   - {fileID: 2041116769}
   - {fileID: 1528509442}
@@ -9262,7 +9337,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4289906645
   m_fontColor: {r: 0.8352942, g: 0.7803922, b: 0.69803923, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -10607,7 +10682,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 0.4117647}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 0.88235295}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -10958,7 +11033,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4289906645
   m_fontColor: {r: 0.8352942, g: 0.7803922, b: 0.69803923, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -11674,7 +11749,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Fat balls
   numberOwned: 0
-  baseCost: 15
+  baseCost: 80
   purchaseCost: 0
   multiplier: 1
   costText: {fileID: 1148991146}
@@ -11786,7 +11861,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 812600281}
         m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
         m_MethodName: set_interactable
         m_Mode: 6
@@ -12523,7 +12598,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 812600284}
         m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
         m_MethodName: set_interactable
         m_Mode: 6
@@ -13392,7 +13467,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 0.4117647}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 0.88235295}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -14053,7 +14128,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4289906645
   m_fontColor: {r: 0.8352942, g: 0.7803922, b: 0.69803923, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -14190,7 +14265,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 0.4117647}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 0.88235295}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -16139,7 +16214,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4289906645
   m_fontColor: {r: 0.8352942, g: 0.7803922, b: 0.69803923, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -16664,7 +16739,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 0.4117647}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 0.88235295}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -16886,8 +16961,8 @@ RectTransform:
   - {fileID: 995097785}
   - {fileID: 1321926176}
   - {fileID: 633708144}
-  - {fileID: 1294065174}
   - {fileID: 58044030}
+  - {fileID: 1294065174}
   m_Father: {fileID: 1043820527}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -16909,7 +16984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Mixed seeds
   numberOwned: 0
-  baseCost: 80
+  baseCost: 15
   purchaseCost: 0
   multiplier: 1
   costText: {fileID: 1321926177}
@@ -17009,7 +17084,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 812600285}
         m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
         m_MethodName: set_interactable
         m_Mode: 6
@@ -17125,7 +17200,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4289906645
   m_fontColor: {r: 0.8352942, g: 0.7803922, b: 0.69803923, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -17259,7 +17334,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4289906645
   m_fontColor: {r: 0.8352942, g: 0.7803922, b: 0.69803923, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -17497,7 +17572,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 812600282}
         m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
         m_MethodName: set_interactable
         m_Mode: 6

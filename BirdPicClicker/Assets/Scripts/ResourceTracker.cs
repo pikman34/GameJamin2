@@ -25,14 +25,14 @@ public class ResourceTracker : MonoBehaviour
             UpdateUI();
         }
 
-        if (collareddove) 
+        if (robin) 
         {
             photoClicks = (float)1.5;
             resourcesAvailable += (float)(amountToAdd + 0.5);
             UpdateUI();
         }
         
-        if (robin)
+        if (collareddove)
         {
             photoClicks = (float)1.75;
             resourcesAvailable += (float)(amountToAdd + 0.75);
