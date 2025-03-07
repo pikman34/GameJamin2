@@ -1778,7 +1778,7 @@ GameObject:
   - component: {fileID: 4971100759346058866}
   - component: {fileID: 5955923255775076460}
   m_Layer: 5
-  m_Name: Journal
+  m_Name: Ignore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
