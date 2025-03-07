@@ -1406,7 +1406,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -479.99997, y: 118}
+  m_AnchoredPosition: {x: -479.99994, y: 118}
   m_SizeDelta: {x: 0, y: 118}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &339024145
@@ -4619,8 +4619,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1122036130}
   m_HandleRect: {fileID: 1122036129}
   m_Direction: 0
-  m_Value: 0
-  m_Size: 0.91880184
+  m_Value: -0.00000071943896
+  m_Size: 0.91880345
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -11187,7 +11187,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1018549780271786309, guid: 335a26d4ee2ee3548a647354a03ecba3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 67.50003
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 1269641091323626632, guid: 335a26d4ee2ee3548a647354a03ecba3, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -11299,7 +11299,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2042490137647519151, guid: 335a26d4ee2ee3548a647354a03ecba3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -115.69997
+      value: 71
       objectReference: {fileID: 0}
     - target: {fileID: 2257459249612422024, guid: 335a26d4ee2ee3548a647354a03ecba3, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -11307,7 +11307,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2257459249612422024, guid: 335a26d4ee2ee3548a647354a03ecba3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 23.600033
+      value: -116
       objectReference: {fileID: 0}
     - target: {fileID: 2904848450172976399, guid: 335a26d4ee2ee3548a647354a03ecba3, type: 3}
       propertyPath: m_IsActive
@@ -12014,7 +12014,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 748526316}
+      - m_Target: {fileID: 1310375689}
         m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
         m_MethodName: set_interactable
         m_Mode: 6
@@ -16648,7 +16648,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1310375689}
+      - m_Target: {fileID: 748526316}
         m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
         m_MethodName: set_interactable
         m_Mode: 6
