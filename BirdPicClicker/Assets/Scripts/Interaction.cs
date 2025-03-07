@@ -30,11 +30,12 @@ public class TriggerInteraction : MonoBehaviour
             if (bird2)
             {
                 clicker.rook = false;
+                clicker.collareddove = true;
                 clicker.bluetit = true;
                 clicker.robin = false;
                 clicker.goldfinch = false;
                 clicker.swan = false;
-                clicker.collareddove = false;
+                clicker.bluetit = false;
             }
 
             if (bird3)
@@ -70,11 +71,12 @@ public class TriggerInteraction : MonoBehaviour
             if (bird6)
             {
                 clicker.rook = false;
-                clicker.bluetit = false;
+                clicker.collareddove = false;
                 clicker.robin = false;
                 clicker.goldfinch = false;
                 clicker.swan = false;
                 clicker.collareddove = true;
+                clicker.bluetit = true;
             }
         }
 
