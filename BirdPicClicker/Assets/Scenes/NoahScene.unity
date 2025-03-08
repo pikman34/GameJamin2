@@ -1702,7 +1702,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -479.99973, y: 118}
+  m_AnchoredPosition: {x: -479.99982, y: 118}
   m_SizeDelta: {x: 0, y: 118}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &339024145
@@ -3509,7 +3509,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6054064174161445431, guid: c09662db3e6e541409d97d11f78f7470, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6468381931009887057, guid: c09662db3e6e541409d97d11f78f7470, type: 3}
       propertyPath: m_LocalScale.x
@@ -5068,8 +5068,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1122036130}
   m_HandleRect: {fileID: 1122036129}
   m_Direction: 0
-  m_Value: -0.0000035972
-  m_Size: 0.91481096
+  m_Value: -0.00000215832
+  m_Size: 0.918778
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6099,7 +6099,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1078194581172257428, guid: 815beb56741323f4e96ceb39dc84dd76, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1141758629207319784, guid: 815beb56741323f4e96ceb39dc84dd76, type: 3}
       propertyPath: m_AnchoredPosition.x
