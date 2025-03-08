@@ -11,6 +11,14 @@ public class TriggerInteraction : MonoBehaviour
 
     private bool insideTrigger;
 
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+    
+
     void Update()
     {
         if (insideTrigger && Input.GetMouseButtonDown((int)MouseButton.Left))
@@ -19,6 +27,7 @@ public class TriggerInteraction : MonoBehaviour
            
             if (bird1) 
             {
+                audioManager.PLAYSFX(audioManager.rookNoise);
                 clicker.rook = true;
                 clicker.bluetit = false;
                 clicker.robin = false;
@@ -29,6 +38,7 @@ public class TriggerInteraction : MonoBehaviour
 
             if (bird2)
             {
+                audioManager.PLAYSFX(audioManager.robinNoise);
                 clicker.rook = false;
                 clicker.robin = true;
                 clicker.collareddove = false;
@@ -39,6 +49,7 @@ public class TriggerInteraction : MonoBehaviour
 
             if (bird3)
             {
+                audioManager.PLAYSFX(audioManager.doveNoise);
                 clicker.rook = false;
                 clicker.robin = false;
                 clicker.collareddove = true;
@@ -49,6 +60,7 @@ public class TriggerInteraction : MonoBehaviour
 
             if (bird4)
             {
+                audioManager.PLAYSFX(audioManager.goldfinchNoise);
                 clicker.rook = false;
                 clicker.bluetit = false;
                 clicker.robin = false;
@@ -59,6 +71,7 @@ public class TriggerInteraction : MonoBehaviour
 
             if (bird5)
             {
+                audioManager.PLAYSFX(audioManager.swanNoise);
                 clicker.rook = false;
                 clicker.bluetit = false;
                 clicker.robin = false;
@@ -69,6 +82,7 @@ public class TriggerInteraction : MonoBehaviour
 
             if (bird6)
             {
+                audioManager.PLAYSFX(audioManager.bluetitNoise);
                 clicker.rook = false;
                 clicker.collareddove = false;
                 clicker.robin = false;
