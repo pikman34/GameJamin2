@@ -1702,7 +1702,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -479.99997, y: 118}
+  m_AnchoredPosition: {x: -479.99973, y: 118}
   m_SizeDelta: {x: 0, y: 118}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &339024145
@@ -5068,8 +5068,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1122036130}
   m_HandleRect: {fileID: 1122036129}
   m_Direction: 0
-  m_Value: 0
-  m_Size: 0.9186468
+  m_Value: -0.0000035972
+  m_Size: 0.91481096
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7736,7 +7736,7 @@ PrefabInstance:
       objectReference: {fileID: 1844144908}
     - target: {fileID: 1472335084109213778, guid: 7648311fd2e58a943bdc5695ac17e11c, type: 3}
       propertyPath: resourcesAvailable
-      value: 10000
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2075313975375896075, guid: 7648311fd2e58a943bdc5695ac17e11c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
