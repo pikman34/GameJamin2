@@ -5,8 +5,9 @@ using UnityEngine.Events;
 
 public class TriggerInteraction : MonoBehaviour
 {
-    public UnityEvent enteredTrigger, exitedTrigger, interacted;
+    public UnityEvent enteredTrigger, exitedTrigger, interacted, purchase;
     public ResourceTracker clicker;
+    public SHOP buy;
     public bool bird1, bird2, bird3, bird4, bird5, bird6;
 
     private bool insideTrigger;
@@ -21,6 +22,12 @@ public class TriggerInteraction : MonoBehaviour
 
     void Update()
     {
+        if (insideTrigger && Input.GetMouseButtonDown((int)MouseButton.Left) && clicker.CheckResources(buy.purchaseCost))
+        {
+            purchase.Invoke();
+        }
+
+
         if (insideTrigger && Input.GetMouseButtonDown((int)MouseButton.Left))
         {
             interacted.Invoke();
@@ -91,7 +98,14 @@ public class TriggerInteraction : MonoBehaviour
                 clicker.collareddove = true;
                 clicker.bluetit = true;
             }
+
+            if (clicker.CheckResources(buy.purchaseCost) == true)
+            {
+                interacted.Invoke();
+            }
         }
+
+        
 
     }
 
@@ -107,4 +121,5 @@ public class TriggerInteraction : MonoBehaviour
         exitedTrigger.Invoke();
         insideTrigger = false;
     }
+    
 }

@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class SHOP : MonoBehaviour
 {
@@ -11,7 +12,8 @@ public class SHOP : MonoBehaviour
     public ResourceTracker myResources;
     public float autoClickIncrease = 0.1f;
 
-
+    public SpriteRenderer spriteRenderer;
+    public Sprite newSprite;
     private void Start()
     {
         SetUI();
@@ -39,5 +41,6 @@ public class SHOP : MonoBehaviour
             numberOwned++;
             SetUI();
         }
+
     }
 }
