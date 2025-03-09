@@ -22,9 +22,8 @@ public class TriggerInteraction : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown((int)MouseButton.Left) && clicker.CheckResources(buy.purchaseCost))
+        if (insideTrigger && Input.GetMouseButtonDown((int)MouseButton.Left) && clicker.CheckResources(buy.purchaseCost))
         {
-            Debug.Log(insideTrigger);
             purchase.Invoke();
         }
 

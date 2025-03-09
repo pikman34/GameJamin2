@@ -1878,7 +1878,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -498.78494, y: 118.00035}
+  m_AnchoredPosition: {x: -498.78485, y: 118.00035}
   m_SizeDelta: {x: 0, y: 118}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &339024145
@@ -5054,7 +5054,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.09857178, y: -0.07449722}
+  m_Offset: {x: -87.76788, y: -115.44586}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5065,7 +5065,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 150.91354, y: 84.84533}
+  m_Size: {x: 3.2943115, y: 2.0049362}
   m_EdgeRadius: 0
 --- !u!114 &684176092
 MonoBehaviour:
@@ -5535,8 +5535,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1122036130}
   m_HandleRect: {fileID: 1122036129}
   m_Direction: 0
-  m_Value: -0.0000012912807
-  m_Size: 0.9519088
+  m_Value: -0.000002582568
+  m_Size: 0.9547613
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6597,7 +6597,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2221059976239925638, guid: 815beb56741323f4e96ceb39dc84dd76, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -9.8003235
+      value: -9.8003845
       objectReference: {fileID: 0}
     - target: {fileID: 3811414444303866584, guid: 815beb56741323f4e96ceb39dc84dd76, type: 3}
       propertyPath: m_IsActive
@@ -8508,7 +8508,7 @@ PrefabInstance:
       objectReference: {fileID: 1844144908}
     - target: {fileID: 1472335084109213778, guid: 7648311fd2e58a943bdc5695ac17e11c, type: 3}
       propertyPath: resourcesAvailable
-      value: 0
+      value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 2075313975375896075, guid: 7648311fd2e58a943bdc5695ac17e11c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
