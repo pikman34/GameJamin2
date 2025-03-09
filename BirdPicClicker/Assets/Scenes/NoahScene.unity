@@ -628,7 +628,6 @@ GameObject:
   - component: {fileID: 27432508}
   - component: {fileID: 27432510}
   - component: {fileID: 27432509}
-  - component: {fileID: 27432511}
   m_Layer: 5
   m_Name: UpgradeArrow (2)
   m_TagString: Untagged
@@ -693,61 +692,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 27432507}
   m_CullTransparentMesh: 1
---- !u!114 &27432511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 27432507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31e6ce990474695479b61622be1dc616, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemName: '@@@'
-  numberOwned: 0
-  baseCost: 0
-  purchaseCost: 0
-  multiplier: 0
-  costText: {fileID: 1803776479}
-  nameText: {fileID: 1803776479}
-  numberText: {fileID: 1803776479}
-  myResources: {fileID: 998646936}
-  autoClickIncrease: 0
-  flash: 0
-  tripod: 0
-  hdlens: 1
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  newSprite: {fileID: 0}
 --- !u!1 &53470195
 GameObject:
   m_ObjectHideFlags: 0
@@ -814,37 +758,6 @@ MonoBehaviour:
   numberText: {fileID: 792977170}
   myResources: {fileID: 998646936}
   autoClickIncrease: 0.055
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 1
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
   spriteRenderer: {fileID: 0}
   newSprite: {fileID: 0}
 --- !u!114 &53470198
@@ -903,10 +816,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1931747575}
-        m_TargetAssemblyTypeName: SHOP, Assembly-CSharp
-        m_MethodName: PurchaseItem
-        m_Mode: 1
+      - m_Target: {fileID: 1931747571}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -915,10 +828,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1467190605}
-        m_TargetAssemblyTypeName: SHOP, Assembly-CSharp
-        m_MethodName: PurchaseItem
-        m_Mode: 1
+      - m_Target: {fileID: 1467190602}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1063,7 +976,6 @@ GameObject:
   - component: {fileID: 117545483}
   - component: {fileID: 117545485}
   - component: {fileID: 117545484}
-  - component: {fileID: 117545486}
   m_Layer: 5
   m_Name: UpgradeArrow (1)
   m_TagString: Untagged
@@ -1128,61 +1040,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 117545482}
   m_CullTransparentMesh: 1
---- !u!114 &117545486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 117545482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31e6ce990474695479b61622be1dc616, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemName: '@@@'
-  numberOwned: 0
-  baseCost: 0
-  purchaseCost: 0
-  multiplier: 1.15
-  costText: {fileID: 1803776479}
-  nameText: {fileID: 1803776479}
-  numberText: {fileID: 1803776479}
-  myResources: {fileID: 998646936}
-  autoClickIncrease: 0
-  flash: 0
-  tripod: 1
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  newSprite: {fileID: 0}
 --- !u!1 &123336540
 GameObject:
   m_ObjectHideFlags: 0
@@ -1278,7 +1135,6 @@ GameObject:
   - component: {fileID: 129303683}
   - component: {fileID: 129303685}
   - component: {fileID: 129303684}
-  - component: {fileID: 129303686}
   m_Layer: 5
   m_Name: Itemicon (1)
   m_TagString: Untagged
@@ -1343,61 +1199,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129303682}
   m_CullTransparentMesh: 1
---- !u!114 &129303686
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 129303682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31e6ce990474695479b61622be1dc616, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemName: '@@@'
-  numberOwned: 0
-  baseCost: 0
-  purchaseCost: 0
-  multiplier: 0
-  costText: {fileID: 1803776479}
-  nameText: {fileID: 1803776479}
-  numberText: {fileID: 1803776479}
-  myResources: {fileID: 998646936}
-  autoClickIncrease: 0
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 1
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 812600283}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  newSprite: {fileID: 0}
 --- !u!1 &197687683
 GameObject:
   m_ObjectHideFlags: 0
@@ -2077,7 +1878,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -498.78485, y: 118.00035}
+  m_AnchoredPosition: {x: -498.78494, y: 118.00035}
   m_SizeDelta: {x: 0, y: 118}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &339024145
@@ -2186,37 +1987,6 @@ MonoBehaviour:
   numberText: {fileID: 6789310}
   myResources: {fileID: 998646936}
   autoClickIncrease: 1.5
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
   spriteRenderer: {fileID: 0}
   newSprite: {fileID: 0}
 --- !u!114 &341816498
@@ -2275,7 +2045,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1384391070}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SHOP, Assembly-CSharp
         m_MethodName: PurchaseItem
         m_Mode: 1
@@ -2561,37 +2331,6 @@ MonoBehaviour:
   numberText: {fileID: 1017175277}
   myResources: {fileID: 998646936}
   autoClickIncrease: 0.8
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 1
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 937972488}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
   spriteRenderer: {fileID: 0}
   newSprite: {fileID: 0}
 --- !u!114 &356392667
@@ -2650,10 +2389,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 937972487}
-        m_TargetAssemblyTypeName: SHOP, Assembly-CSharp
-        m_MethodName: PurchaseItem
-        m_Mode: 1
+      - m_Target: {fileID: 937972488}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
+        m_MethodName: set_interactable
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2662,10 +2401,34 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1214520607}
-        m_TargetAssemblyTypeName: SHOP, Assembly-CSharp
-        m_MethodName: PurchaseItem
-        m_Mode: 1
+      - m_Target: {fileID: 1562910774}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1225134888}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1214520603}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2673,30 +2436,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1225134892}
-        m_TargetAssemblyTypeName: SHOP, Assembly-CSharp
-        m_MethodName: PurchaseItem
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1562910777}
-        m_TargetAssemblyTypeName: SHOP, Assembly-CSharp
-        m_MethodName: PurchaseItem
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 2021869417}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -2920,7 +2659,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  purchase:
+    m_PersistentCalls:
+      m_Calls: []
   clicker: {fileID: 998646936}
+  buy: {fileID: 2041116770}
   bird1: 0
   bird2: 0
   bird3: 0
@@ -3186,7 +2929,6 @@ GameObject:
   m_Component:
   - component: {fileID: 377155334}
   - component: {fileID: 377155333}
-  - component: {fileID: 377155335}
   m_Layer: 0
   m_Name: bird-feeder
   m_TagString: Untagged
@@ -3261,61 +3003,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &377155335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 377155332}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31e6ce990474695479b61622be1dc616, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemName: '@@@'
-  numberOwned: 0
-  baseCost: 0
-  purchaseCost: 0
-  multiplier: 0
-  costText: {fileID: 0}
-  nameText: {fileID: 0}
-  numberText: {fileID: 0}
-  myResources: {fileID: 998646936}
-  autoClickIncrease: 0
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 1
-  flowers: 0
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  newSprite: {fileID: 0}
 --- !u!1 &442372681
 GameObject:
   m_ObjectHideFlags: 0
@@ -3616,7 +3303,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  purchase:
+    m_PersistentCalls:
+      m_Calls: []
   clicker: {fileID: 998646936}
+  buy: {fileID: 1528509443}
   bird1: 0
   bird2: 0
   bird3: 0
@@ -4616,7 +4307,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  purchase:
+    m_PersistentCalls:
+      m_Calls: []
   clicker: {fileID: 998646936}
+  buy: {fileID: 2027769012}
   bird1: 0
   bird2: 1
   bird3: 0
@@ -5176,6 +4871,8 @@ GameObject:
   - component: {fileID: 684176089}
   - component: {fileID: 684176088}
   - component: {fileID: 684176087}
+  - component: {fileID: 684176092}
+  - component: {fileID: 684176091}
   m_Layer: 5
   m_Name: Flash
   m_TagString: Untagged
@@ -5229,37 +4926,6 @@ MonoBehaviour:
   numberText: {fileID: 1674305716}
   myResources: {fileID: 998646936}
   autoClickIncrease: 0.2
-  flash: 1
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
   spriteRenderer: {fileID: 0}
   newSprite: {fileID: 0}
 --- !u!114 &684176088
@@ -5318,30 +4984,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1954214789}
-        m_TargetAssemblyTypeName: SHOP, Assembly-CSharp
-        m_MethodName: PurchaseItem
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1207934896}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: PlayOneShot
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 414a403112c1b9547a78777cca3e7704, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
 --- !u!114 &684176089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5380,6 +5022,107 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 684176085}
   m_CullTransparentMesh: 1
+--- !u!61 &684176091
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684176085}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.09857178, y: -0.07449722}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 150.91354, y: 84.84533}
+  m_EdgeRadius: 0
+--- !u!114 &684176092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684176085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e1cc5306d820e64a94bc0742900b287, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enteredTrigger:
+    m_PersistentCalls:
+      m_Calls: []
+  exitedTrigger:
+    m_PersistentCalls:
+      m_Calls: []
+  interacted:
+    m_PersistentCalls:
+      m_Calls: []
+  purchase:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1954214785}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1207934896}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 414a403112c1b9547a78777cca3e7704, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  clicker: {fileID: 998646936}
+  buy: {fileID: 684176087}
+  bird1: 0
+  bird2: 0
+  bird3: 0
+  bird4: 0
+  bird5: 0
+  bird6: 0
 --- !u!1 &687050111
 GameObject:
   m_ObjectHideFlags: 0
@@ -5530,37 +5273,6 @@ MonoBehaviour:
   numberText: {fileID: 1022094728}
   myResources: {fileID: 998646936}
   autoClickIncrease: 4
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
   spriteRenderer: {fileID: 0}
   newSprite: {fileID: 0}
 --- !u!114 &696519773
@@ -5823,8 +5535,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1122036130}
   m_HandleRect: {fileID: 1122036129}
   m_Direction: 0
-  m_Value: -0.000002582568
-  m_Size: 0.9547054
+  m_Value: -0.0000012912807
+  m_Size: 0.9519088
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6015,7 +5727,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  purchase:
+    m_PersistentCalls:
+      m_Calls: []
   clicker: {fileID: 998646936}
+  buy: {fileID: 684176087}
   bird1: 1
   bird2: 0
   bird3: 0
@@ -7867,7 +7583,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  purchase:
+    m_PersistentCalls:
+      m_Calls: []
   clicker: {fileID: 998646936}
+  buy: {fileID: 1393568748}
   bird1: 0
   bird2: 0
   bird3: 1
@@ -8130,37 +7850,6 @@ MonoBehaviour:
   numberText: {fileID: 1119981755}
   myResources: {fileID: 998646936}
   autoClickIncrease: 0
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
   spriteRenderer: {fileID: 0}
   newSprite: {fileID: 0}
 --- !u!114 &937972488
@@ -8395,37 +8084,6 @@ MonoBehaviour:
   numberText: {fileID: 1261976832}
   myResources: {fileID: 998646936}
   autoClickIncrease: 0.8
-  flash: 0
-  tripod: 0
-  hdlens: 1
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
   spriteRenderer: {fileID: 0}
   newSprite: {fileID: 0}
 --- !u!114 &953162634
@@ -8484,7 +8142,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 27432511}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SHOP, Assembly-CSharp
         m_MethodName: PurchaseItem
         m_Mode: 1
@@ -8850,7 +8508,7 @@ PrefabInstance:
       objectReference: {fileID: 1844144908}
     - target: {fileID: 1472335084109213778, guid: 7648311fd2e58a943bdc5695ac17e11c, type: 3}
       propertyPath: resourcesAvailable
-      value: 10000
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2075313975375896075, guid: 7648311fd2e58a943bdc5695ac17e11c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -9137,7 +8795,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  purchase:
+    m_PersistentCalls:
+      m_Calls: []
   clicker: {fileID: 998646936}
+  buy: {fileID: 937972487}
   bird1: 0
   bird2: 0
   bird3: 0
@@ -10556,37 +10218,6 @@ MonoBehaviour:
   numberText: {fileID: 0}
   myResources: {fileID: 0}
   autoClickIncrease: 0
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 1
-  flowers: 0
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
   spriteRenderer: {fileID: 0}
   newSprite: {fileID: 0}
 --- !u!1 &1148991144
@@ -11211,7 +10842,6 @@ GameObject:
   - component: {fileID: 1214520604}
   - component: {fileID: 1214520606}
   - component: {fileID: 1214520605}
-  - component: {fileID: 1214520607}
   m_Layer: 5
   m_Name: Required Text
   m_TagString: Untagged
@@ -11337,61 +10967,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1214520603}
   m_CullTransparentMesh: 1
---- !u!114 &1214520607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1214520603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31e6ce990474695479b61622be1dc616, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemName: '@@@'
-  numberOwned: 0
-  baseCost: 0
-  purchaseCost: 0
-  multiplier: 0
-  costText: {fileID: 1803776479}
-  nameText: {fileID: 1803776479}
-  numberText: {fileID: 1803776479}
-  myResources: {fileID: 998646936}
-  autoClickIncrease: 0
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 0
-  birdbath2: 1
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 937972488}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  newSprite: {fileID: 0}
 --- !u!1 &1225134888
 GameObject:
   m_ObjectHideFlags: 0
@@ -11490,37 +11065,6 @@ MonoBehaviour:
   numberText: {fileID: 1803776479}
   myResources: {fileID: 998646936}
   autoClickIncrease: 0
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 1
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 937972488}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
   spriteRenderer: {fileID: 0}
   newSprite: {fileID: 0}
 --- !u!1 &1256046603
@@ -13057,7 +12601,6 @@ GameObject:
   - component: {fileID: 1384391067}
   - component: {fileID: 1384391069}
   - component: {fileID: 1384391068}
-  - component: {fileID: 1384391070}
   m_Layer: 5
   m_Name: UpgradeArrow (4)
   m_TagString: Untagged
@@ -13122,61 +12665,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1384391066}
   m_CullTransparentMesh: 1
---- !u!114 &1384391070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1384391066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31e6ce990474695479b61622be1dc616, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemName: '@@@'
-  numberOwned: 0
-  baseCost: 0
-  purchaseCost: 0
-  multiplier: 0
-  costText: {fileID: 1803776479}
-  nameText: {fileID: 1803776479}
-  numberText: {fileID: 1803776479}
-  myResources: {fileID: 998646936}
-  autoClickIncrease: 0
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 1
-  birdfeed: 0
-  flowers: 0
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  newSprite: {fileID: 0}
 --- !u!1 &1393254203
 GameObject:
   m_ObjectHideFlags: 0
@@ -13377,37 +12865,6 @@ MonoBehaviour:
   numberText: {fileID: 1667971527}
   myResources: {fileID: 998646936}
   autoClickIncrease: 0
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
   spriteRenderer: {fileID: 0}
   newSprite: {fileID: 0}
 --- !u!114 &1393568749
@@ -13586,7 +13043,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1396526169}
   - component: {fileID: 1396526168}
-  - component: {fileID: 1396526170}
   m_Layer: 0
   m_Name: birdhouse
   m_TagString: Untagged
@@ -13661,61 +13117,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1396526170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1396526167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31e6ce990474695479b61622be1dc616, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemName: '@@@'
-  numberOwned: 0
-  baseCost: 0
-  purchaseCost: 0
-  multiplier: 1.15
-  costText: {fileID: 0}
-  nameText: {fileID: 0}
-  numberText: {fileID: 0}
-  myResources: {fileID: 998646936}
-  autoClickIncrease: 0
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  newSprite: {fileID: 0}
 --- !u!1 &1416022856
 GameObject:
   m_ObjectHideFlags: 0
@@ -13876,7 +13277,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1467190604}
   - component: {fileID: 1467190603}
-  - component: {fileID: 1467190605}
   m_Layer: 0
   m_Name: flowers
   m_TagString: Untagged
@@ -13951,61 +13351,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1467190605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1467190602}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31e6ce990474695479b61622be1dc616, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemName: '@@@'
-  numberOwned: 0
-  baseCost: 0
-  purchaseCost: 0
-  multiplier: 0
-  costText: {fileID: 0}
-  nameText: {fileID: 0}
-  numberText: {fileID: 0}
-  myResources: {fileID: 998646936}
-  autoClickIncrease: 0
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 1
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  newSprite: {fileID: 0}
 --- !u!1 &1472318819
 GameObject:
   m_ObjectHideFlags: 0
@@ -14580,37 +13925,6 @@ MonoBehaviour:
   numberText: {fileID: 1910670114}
   myResources: {fileID: 998646936}
   autoClickIncrease: 0
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
   spriteRenderer: {fileID: 0}
   newSprite: {fileID: 0}
 --- !u!114 &1528509444
@@ -14903,7 +14217,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1562910776}
   - component: {fileID: 1562910775}
-  - component: {fileID: 1562910777}
   m_Layer: 0
   m_Name: birdbath
   m_TagString: Untagged
@@ -14978,61 +14291,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1562910777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1562910774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31e6ce990474695479b61622be1dc616, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemName: '@@@'
-  numberOwned: 0
-  baseCost: 0
-  purchaseCost: 0
-  multiplier: 0
-  costText: {fileID: 1803776479}
-  nameText: {fileID: 1803776479}
-  numberText: {fileID: 1803776479}
-  myResources: {fileID: 998646936}
-  autoClickIncrease: 0
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 1
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  newSprite: {fileID: 0}
 --- !u!1 &1591697520
 GameObject:
   m_ObjectHideFlags: 0
@@ -15131,37 +14389,6 @@ MonoBehaviour:
   numberText: {fileID: 1803776479}
   myResources: {fileID: 998646936}
   autoClickIncrease: 0
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 1
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
   spriteRenderer: {fileID: 0}
   newSprite: {fileID: 0}
 --- !u!1 &1606227747
@@ -16281,37 +15508,6 @@ MonoBehaviour:
   numberText: {fileID: 675380450}
   myResources: {fileID: 998646936}
   autoClickIncrease: 1
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 1
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
   spriteRenderer: {fileID: 0}
   newSprite: {fileID: 0}
 --- !u!114 &1757277048
@@ -18208,37 +17404,6 @@ MonoBehaviour:
   numberText: {fileID: 0}
   myResources: {fileID: 998646936}
   autoClickIncrease: 0
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 1
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
   spriteRenderer: {fileID: 0}
   newSprite: {fileID: 0}
 --- !u!1 &1943286644
@@ -18443,37 +17608,6 @@ MonoBehaviour:
   numberText: {fileID: 1256211251}
   myResources: {fileID: 998646936}
   autoClickIncrease: 1.5
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
   spriteRenderer: {fileID: 0}
   newSprite: {fileID: 0}
 --- !u!114 &1947328662
@@ -18665,7 +17799,6 @@ GameObject:
   - component: {fileID: 1954214786}
   - component: {fileID: 1954214788}
   - component: {fileID: 1954214787}
-  - component: {fileID: 1954214789}
   m_Layer: 5
   m_Name: UpgradeArrow
   m_TagString: Untagged
@@ -18730,61 +17863,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1954214785}
   m_CullTransparentMesh: 1
---- !u!114 &1954214789
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1954214785}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31e6ce990474695479b61622be1dc616, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemName: '@@@'
-  numberOwned: 0
-  baseCost: 0
-  purchaseCost: 0
-  multiplier: 0
-  costText: {fileID: 1803776479}
-  nameText: {fileID: 1803776479}
-  numberText: {fileID: 1803776479}
-  myResources: {fileID: 998646936}
-  autoClickIncrease: 0
-  flash: 1
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  newSprite: {fileID: 0}
 --- !u!1 &1954918038
 GameObject:
   m_ObjectHideFlags: 0
@@ -19351,37 +18429,6 @@ MonoBehaviour:
   numberText: {fileID: 849676251}
   myResources: {fileID: 998646936}
   autoClickIncrease: 0.02
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 1
-  flowers: 0
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
   spriteRenderer: {fileID: 0}
   newSprite: {fileID: 0}
 --- !u!114 &2006924199
@@ -19440,10 +18487,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1142371775}
-        m_TargetAssemblyTypeName: SHOP, Assembly-CSharp
-        m_MethodName: PurchaseItem
-        m_Mode: 1
+      - m_Target: {fileID: 1142371771}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -19452,10 +18499,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 377155335}
-        m_TargetAssemblyTypeName: SHOP, Assembly-CSharp
-        m_MethodName: PurchaseItem
-        m_Mode: 1
+      - m_Target: {fileID: 377155332}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -19661,7 +18708,6 @@ GameObject:
   - component: {fileID: 2021869418}
   - component: {fileID: 2021869420}
   - component: {fileID: 2021869419}
-  - component: {fileID: 2021869421}
   m_Layer: 5
   m_Name: Itemicon
   m_TagString: Untagged
@@ -19726,61 +18772,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2021869417}
   m_CullTransparentMesh: 1
---- !u!114 &2021869421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2021869417}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31e6ce990474695479b61622be1dc616, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemName: '@@@'
-  numberOwned: 0
-  baseCost: 0
-  purchaseCost: 0
-  multiplier: 0
-  costText: {fileID: 1803776479}
-  nameText: {fileID: 1803776479}
-  numberText: {fileID: 1803776479}
-  myResources: {fileID: 998646936}
-  autoClickIncrease: 0
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 0
-  birdbath2: 1
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  newSprite: {fileID: 0}
 --- !u!1 &2023146613
 GameObject:
   m_ObjectHideFlags: 0
@@ -19967,37 +18958,6 @@ MonoBehaviour:
   numberText: {fileID: 633708145}
   myResources: {fileID: 998646936}
   autoClickIncrease: 0
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
   spriteRenderer: {fileID: 0}
   newSprite: {fileID: 0}
 --- !u!114 &2027769013
@@ -20164,7 +19124,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2033802688}
   - component: {fileID: 2033802687}
-  - component: {fileID: 2033802689}
   m_Layer: 0
   m_Name: pond(dirty)
   m_TagString: Untagged
@@ -20239,61 +19198,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2033802689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2033802686}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31e6ce990474695479b61622be1dc616, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemName: '@@@'
-  numberOwned: 0
-  baseCost: 0
-  purchaseCost: 0
-  multiplier: 1.15
-  costText: {fileID: 1803776479}
-  nameText: {fileID: 1803776479}
-  numberText: {fileID: 1803776479}
-  myResources: {fileID: 998646936}
-  autoClickIncrease: 0
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 937972488}
-  meatbutton: {fileID: 2041116771}
-  sunflowerbutton: {fileID: 1528509444}
-  robinbutton: {fileID: 812600285}
-  dovebutton: {fileID: 812600281}
-  goldbutton: {fileID: 812600283}
-  swanbutton: {fileID: 812600282}
-  bluetitbutton: {fileID: 812600284}
-  spriteRenderer: {fileID: 2033802687}
-  newSprite: {fileID: 21300000, guid: 7f1ee18a3dbecb64f9d7ba75dc9a1db8, type: 3}
 --- !u!1 &2036482248
 GameObject:
   m_ObjectHideFlags: 0
@@ -20630,37 +19534,6 @@ MonoBehaviour:
   numberText: {fileID: 1796141573}
   myResources: {fileID: 998646936}
   autoClickIncrease: 0
-  flash: 0
-  tripod: 0
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
   spriteRenderer: {fileID: 0}
   newSprite: {fileID: 0}
 --- !u!114 &2041116771
@@ -20895,37 +19768,6 @@ MonoBehaviour:
   numberText: {fileID: 847581105}
   myResources: {fileID: 998646936}
   autoClickIncrease: 0.4
-  flash: 0
-  tripod: 1
-  hdlens: 0
-  viewfinder: 0
-  procam: 0
-  birdfeed: 0
-  flowers: 0
-  birdbath: 0
-  birdbath2: 0
-  pond: 0
-  pond2: 0
-  birdhouse: 0
-  birdhouse2: 0
-  fatball: 0
-  fatball2: 0
-  mixedseed: 0
-  mixedseed2: 0
-  safflower: 0
-  safflower2: 0
-  meatworm: 0
-  meatworm2: 0
-  sunflower: 0
-  sunflower2: 0
-  safflowerbutton: {fileID: 0}
-  meatbutton: {fileID: 0}
-  sunflowerbutton: {fileID: 0}
-  robinbutton: {fileID: 0}
-  dovebutton: {fileID: 0}
-  goldbutton: {fileID: 0}
-  swanbutton: {fileID: 0}
-  bluetitbutton: {fileID: 0}
   spriteRenderer: {fileID: 0}
   newSprite: {fileID: 0}
 --- !u!114 &2041147490
@@ -20984,7 +19826,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 117545486}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SHOP, Assembly-CSharp
         m_MethodName: PurchaseItem
         m_Mode: 1
